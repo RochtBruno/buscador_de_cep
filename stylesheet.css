@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232f3e;
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 130px;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #232f3e;
+}
+
+.quadro {
+    background: white;
+    width: 1000px;
+    height: 570px;
+    margin: 35px;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.container {
+    background: white;
+    margin: 25px;
+    opacity: 0.9;
+}
+
+.secao{
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #232f3e;
+}
+
+.numSecao {
+    background-color: #ff9900;
+    color: #232f3e;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100%;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.buscarBt {
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    margin: 3%;    
+    cursor: pointer;
+}
+
+#botao_buscar {
+    background-color: #7885bd;
+
+}
+#botao_buscar:hover {
+    background-color: #505e99;
+
+}
+#botao_limpar {
+    background-color: red;
+
+}
+#botao_limpar:hover {
+    background-color: rgb(196, 5, 5);
+
+}
+
+#botao_salvar {
+    background-color: #ff9900;
+}
+#botao_salvar:hover {
+    background-color: #d48003;
+}
+.msgErro {
+    color: red;
+}
+
+.submeter{
+    text-align: center;
+    justify-content: center;
+}
